@@ -4,3 +4,5 @@
 !.gitignore
 !check_what_ua_sees.sh
 !no_noindex.sh
+!crawlable.py
+!seo_mini.py
