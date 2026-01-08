@@ -39,5 +39,8 @@ $ python seo_audit_headings.py --in urls.txt --out report.csv
 
 # audit images from page links in input file
 $ python seo_audit_images.py --in urls.txt --out report.csv
+
+# audit internal link structure
+$ python seo_audit_internal_links.py urls.txt --out report
 ```
 
