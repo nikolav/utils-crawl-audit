@@ -42,5 +42,8 @@ $ python seo_audit_images.py --in urls.txt --out report.csv
 
 # audit internal link structure
 $ python seo_audit_internal_links.py urls.txt --out report
+
+# suggest url normalizations
+$ python seo_audit_urls.py input_urls.txt report.csv
 ```
 
