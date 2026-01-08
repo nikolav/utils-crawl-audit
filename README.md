@@ -25,4 +25,6 @@ $ . ./no_noindex.sh
 
 # ua preview
 $ . ./check_what_ua_sees.sh
+# bot view
+$ curl -A "Googlebot" https://domain.com/
 ```
