@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-seo_head_audit.py
+seo_audit_head.py
 
 Reads a list of URLs from a .txt file (one URL per line),
 fetches each page, extracts Titles / Meta / Head tags,
@@ -10,9 +10,9 @@ Install:
   pip install requests beautifulsoup4
 
 Usage:
-  python seo_head_audit.py urls.txt report.csv
-  python seo_head_audit.py urls.txt report.csv --googlebot --workers 10 --timeout 20
-  python seo_head_audit.py urls.txt report.csv --no-redirects
+  python seo_audit_head.py urls.txt report.csv
+  python seo_audit_head.py urls.txt report.csv --googlebot --workers 10 --timeout 20
+  python seo_audit_head.py urls.txt report.csv --no-redirects
 
 Input file format:
   - One URL per line

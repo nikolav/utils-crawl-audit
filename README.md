@@ -32,7 +32,7 @@ $ curl -A "Googlebot" https://domain.com/
 $ python guess_render_strategy_4seo.py https://example.com
 
 # analize seo tags
-$ python seo_head_audit.py urls.txt report.csv
+$ python seo_audit_head.py urls.txt report.csv
 
 # audit page structure/headings from input file
 $ python seo_audit_headings.py --in urls.txt --out report.csv
