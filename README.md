@@ -27,4 +27,7 @@ $ . ./no_noindex.sh
 $ . ./check_what_ua_sees.sh
 # bot view
 $ curl -A "Googlebot" https://domain.com/
+
+# try to guess/evaluate rendering strategy
+$ python guess_render_strategy_4seo.py https://example.com
 ```
