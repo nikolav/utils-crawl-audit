@@ -1,0 +1,3 @@
+input_url,final_url,status,redirected,content_type,robots_allowed,x_robots_tag,meta_robots,has_noindex,canonical,canonical_is_self,html_title,notes
+https://nikolav.rs/,https://nikolav.rs/,200,False,text/html,yes,,,False,,unknown,app:loading,
+https://demo.nikolav.rs/,https://demo.nikolav.rs/,200,False,text/html,yes,,"robots:index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",False,https://inspera.rs/,no,Centar Inspera,Canonical points elsewhere
