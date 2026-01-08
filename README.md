@@ -6,7 +6,7 @@ check links from argv[0] write to argv[1]
 ```bash
 python -m venv .venv
 source .venv/bin/activate
-pip install aiohttp beautifulsoup4 lxml requests
+pip install --no-cache-dir -r requirements.txt
 ```
 
 ## run
