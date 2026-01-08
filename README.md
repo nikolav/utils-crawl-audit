@@ -1,22 +1,28 @@
 ## simple link crawler
-Reads links from argv[0] writes to argv[1]
+check links from argv[0] write to argv[1]
   - urls.txt -> report.csv
-
 
 ## install
 ```bash
 python -m venv .venv
-
 source .venv/bin/activate
-
 pip install aiohttp beautifulsoup4 lxml requests
 ```
 
 ## run
 ```bash
-$ python audit.py urls.txt report.csv
-$ python seo_mini.py urls.txt report.csv
+# reachable, valid core seo
 $ python crawlable.py urls.txt -o report.csv
+
+# visibility, indexibility
+$ python audit.py urls.txt report.csv
+
+# indexibility
+$ python seo_mini.py urls.txt report.csv
+
+# check no accidental noindex for public pages
+$ . ./no_noindex.sh
+
+# ua preview
 $ . ./check_what_ua_sees.sh
 ```
-
