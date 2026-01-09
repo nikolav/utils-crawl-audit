@@ -12,7 +12,7 @@ pip install --no-cache-dir -r requirements.txt
 ## run
 ```bash
 # reachable, valid core seo
-$ python crawlable.py urls.txt -o report.csv
+$ python crawlable.py urls.txt
 
 # visibility, indexibility
 $ python audit.py urls.txt report.csv
@@ -41,9 +41,9 @@ $ python seo_audit_headings.py --in urls.txt --out report.csv
 $ python seo_audit_images.py --in urls.txt --out report.csv
 
 # audit internal link structure
-$ python seo_audit_internal_links.py urls.txt --out report
+$ python seo_audit_internal_links.py urls.txt --out report.csv
 
 # suggest url normalizations
-$ python seo_audit_urls.py input_urls.txt report.csv
+$ python seo_audit_urls.py urls.txt report.csv
 ```
 

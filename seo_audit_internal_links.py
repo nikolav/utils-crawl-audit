@@ -21,7 +21,7 @@ Install:
   pip install requests beautifulsoup4
 
 Usage:
-  python seo_audit_internal_links.py urls.txt --out report
+  python seo_audit_internal_links.py urls.txt --out report.csv
 """
 
 from __future__ import annotations

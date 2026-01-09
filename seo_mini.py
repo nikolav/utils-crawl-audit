@@ -16,7 +16,7 @@ Checks:
 - sitemap.xml exists (HEAD/GET fallback)
 
 Usage:
-  python seo_mini_audit.py urls.txt report.csv
+  python seo_mini.py urls.txt report.csv
 
 Input file format:
   - One URL per line
@@ -298,7 +298,7 @@ def read_urls(path: str) -> list[str]:
 
 def main() -> int:
     if len(sys.argv) < 3:
-        print("Usage: python seo_mini_audit.py urls.txt report.csv", file=sys.stderr)
+        print("Usage: python seo_mini.py urls.txt report.csv", file=sys.stderr)
         return 2
 
     in_path = sys.argv[1]
